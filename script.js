@@ -38,6 +38,7 @@ fetch("https://core.unired.uz/api/open/rate")
           input.value === "USD" ||
           input.value === "Dollar" ||
           input.value === "dollar" ||
+          input.value === "Usd" ||
           input.value === "usd"
         ) {
           const show = `
@@ -65,11 +66,10 @@ fetch("https://core.unired.uz/api/open/rate")
           input.value = "";
         } else if (
           input.value === "EUR" ||
-          input.value === "evro" ||
-          input.value === "euro" ||
-          input.value === "Evro" ||
-          input.value === "Euro" ||
-          input.value === "eur"
+          input.value === "eur" ||
+          input.value === "Eur" ||
+         
+          
         ) {
           const show1 = `
           <table>
@@ -98,6 +98,7 @@ fetch("https://core.unired.uz/api/open/rate")
           input.value === "funt" ||
           input.value === "Funt" ||
           input.value === "GBP" ||
+          input.value === "Gbp" ||
           input.value === "gbp"
         ) {
           const show1 = `
@@ -123,7 +124,7 @@ fetch("https://core.unired.uz/api/open/rate")
           console.log("hi");
           container.innerHTML = show1;
           input.value = "";
-        } else if (input.value === "CHF" || input.value === "chf") {
+        } else if (input.value === "CHF" || input.value === "chf"||input.value === "Gbp") {
           const show1 = `
           <table>
             <thead>
@@ -147,7 +148,7 @@ fetch("https://core.unired.uz/api/open/rate")
           console.log("hi");
           container.innerHTML = show1;
           input.value = "";
-        } else if (input.value === "jyp" || input.value === "JPY") {
+        } else if (input.value === "jyp" || input.value === "JPY"||input.value === "Jyp") {
           const show1 = `
           <table>
             <thead>
@@ -171,7 +172,7 @@ fetch("https://core.unired.uz/api/open/rate")
           console.log("hi");
           container.innerHTML = show1;
           input.value = "";
-        } else if (input.value === "RUB" || input.value === "rub") {
+        } else if (input.value === "RUB" || input.value === "rub"||input.value === "Rub") {
           const show1 = `
           <table>
             <thead>
