@@ -67,7 +67,7 @@ fetch("https://core.unired.uz/api/open/rate")
         } else if (
           input.value === "EUR" ||
           input.value === "eur" ||
-          input.value === "Eur" ||
+          input.value === "Eur" 
          
           
         ) {
