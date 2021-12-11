@@ -42,7 +42,7 @@ h2 {
     width: 80%;
   }
   .container table tbody tr td {
-    padding: 10px 0;
-    padding-left: 25px;
+    padding: 10px 10px 10 0;
+    padding-left: 15px;
   }
 }
