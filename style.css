@@ -59,4 +59,8 @@ h2 {
     padding: 10px 10px 10 0;
     padding-left: 15px;
   }
+  #input{
+    width:60%;
+  }
+
 }
