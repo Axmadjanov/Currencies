@@ -37,3 +37,12 @@ h2 {
   padding: 10px 0;
   padding-left: 45px;
 }
+@media only screen and (max-width: 800px) {
+  .container table {
+    width: 80%;
+  }
+  .container table tbody tr td {
+    padding: 10px 0;
+    padding-left: 25px;
+  }
+}
